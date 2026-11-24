@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerking",
+  "version": "${version}",
+  "name": "Villager King",
+  "description": "Be the king of the villagers. They understand your chat commands.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.villagerking.VillagerKing"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
